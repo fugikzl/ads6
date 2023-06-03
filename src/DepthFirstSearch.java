@@ -13,6 +13,7 @@ public class DepthFirstSearch<Vertex> extends Search<Vertex> {
             if (!marked.contains(v)) {
                 edgeTo.put(v, current);
                 dfs(graph, v);
+                
             }
         }
     }
